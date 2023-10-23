@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20B11A32AE65A2600FFA42A /* BebeBoilerPlateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11A22AE65A2600FFA42A /* BebeBoilerPlateApp.swift */; };
+		B20B11A52AE65A2600FFA42A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11A42AE65A2600FFA42A /* ContentView.swift */; };
+		B20B11A72AE65A2600FFA42A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11A62AE65A2600FFA42A /* Item.swift */; };
+		B20B11A92AE65A2700FFA42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20B11A82AE65A2700FFA42A /* Assets.xcassets */; };
+		B20B11AC2AE65A2700FFA42A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20B11AB2AE65A2700FFA42A /* Preview Assets.xcassets */; };
+		B20B11B62AE65A2700FFA42A /* BebeBoilerPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11B52AE65A2700FFA42A /* BebeBoilerPlateTests.swift */; };
+		B20B11C02AE65A2700FFA42A /* BebeBoilerPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11BF2AE65A2700FFA42A /* BebeBoilerPlateUITests.swift */; };
+		B20B11C22AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11C12AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20B11B22AE65A2700FFA42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20B11972AE65A2600FFA42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20B119E2AE65A2600FFA42A;
+			remoteInfo = BebeBoilerPlate;
+		};
+		B20B11BC2AE65A2700FFA42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20B11972AE65A2600FFA42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20B119E2AE65A2600FFA42A;
+			remoteInfo = BebeBoilerPlate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20B119F2AE65A2600FFA42A /* BebeBoilerPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BebeBoilerPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20B11A22AE65A2600FFA42A /* BebeBoilerPlateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebeBoilerPlateApp.swift; sourceTree = "<group>"; };
+		B20B11A42AE65A2600FFA42A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20B11A62AE65A2600FFA42A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B20B11A82AE65A2700FFA42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20B11AB2AE65A2700FFA42A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B20B11B12AE65A2700FFA42A /* BebeBoilerPlateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BebeBoilerPlateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20B11B52AE65A2700FFA42A /* BebeBoilerPlateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebeBoilerPlateTests.swift; sourceTree = "<group>"; };
+		B20B11BB2AE65A2700FFA42A /* BebeBoilerPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BebeBoilerPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20B11BF2AE65A2700FFA42A /* BebeBoilerPlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebeBoilerPlateUITests.swift; sourceTree = "<group>"; };
+		B20B11C12AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebeBoilerPlateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20B119C2AE65A2600FFA42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B11AE2AE65A2700FFA42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B11B82AE65A2700FFA42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20B11962AE65A2600FFA42A = {
+			isa = PBXGroup;
+			children = (
+				B20B11A12AE65A2600FFA42A /* BebeBoilerPlate */,
+				B20B11B42AE65A2700FFA42A /* BebeBoilerPlateTests */,
+				B20B11BE2AE65A2700FFA42A /* BebeBoilerPlateUITests */,
+				B20B11A02AE65A2600FFA42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20B11A02AE65A2600FFA42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20B119F2AE65A2600FFA42A /* BebeBoilerPlate.app */,
+				B20B11B12AE65A2700FFA42A /* BebeBoilerPlateTests.xctest */,
+				B20B11BB2AE65A2700FFA42A /* BebeBoilerPlateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20B11A12AE65A2600FFA42A /* BebeBoilerPlate */ = {
+			isa = PBXGroup;
+			children = (
+				B20B11A22AE65A2600FFA42A /* BebeBoilerPlateApp.swift */,
+				B20B11A42AE65A2600FFA42A /* ContentView.swift */,
+				B20B11A62AE65A2600FFA42A /* Item.swift */,
+				B20B11A82AE65A2700FFA42A /* Assets.xcassets */,
+				B20B11AA2AE65A2700FFA42A /* Preview Content */,
+			);
+			path = BebeBoilerPlate;
+			sourceTree = "<group>";
+		};
+		B20B11AA2AE65A2700FFA42A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B20B11AB2AE65A2700FFA42A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B20B11B42AE65A2700FFA42A /* BebeBoilerPlateTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20B11B52AE65A2700FFA42A /* BebeBoilerPlateTests.swift */,
+			);
+			path = BebeBoilerPlateTests;
+			sourceTree = "<group>";
+		};
+		B20B11BE2AE65A2700FFA42A /* BebeBoilerPlateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20B11BF2AE65A2700FFA42A /* BebeBoilerPlateUITests.swift */,
+				B20B11C12AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift */,
+			);
+			path = BebeBoilerPlateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20B119E2AE65A2600FFA42A /* BebeBoilerPlate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20B11C52AE65A2700FFA42A /* Build configuration list for PBXNativeTarget "BebeBoilerPlate" */;
+			buildPhases = (
+				B20B119B2AE65A2600FFA42A /* Sources */,
+				B20B119C2AE65A2600FFA42A /* Frameworks */,
+				B20B119D2AE65A2600FFA42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BebeBoilerPlate;
+			productName = BebeBoilerPlate;
+			productReference = B20B119F2AE65A2600FFA42A /* BebeBoilerPlate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20B11B02AE65A2700FFA42A /* BebeBoilerPlateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20B11C82AE65A2700FFA42A /* Build configuration list for PBXNativeTarget "BebeBoilerPlateTests" */;
+			buildPhases = (
+				B20B11AD2AE65A2700FFA42A /* Sources */,
+				B20B11AE2AE65A2700FFA42A /* Frameworks */,
+				B20B11AF2AE65A2700FFA42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20B11B32AE65A2700FFA42A /* PBXTargetDependency */,
+			);
+			name = BebeBoilerPlateTests;
+			productName = BebeBoilerPlateTests;
+			productReference = B20B11B12AE65A2700FFA42A /* BebeBoilerPlateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20B11BA2AE65A2700FFA42A /* BebeBoilerPlateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20B11CB2AE65A2700FFA42A /* Build configuration list for PBXNativeTarget "BebeBoilerPlateUITests" */;
+			buildPhases = (
+				B20B11B72AE65A2700FFA42A /* Sources */,
+				B20B11B82AE65A2700FFA42A /* Frameworks */,
+				B20B11B92AE65A2700FFA42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20B11BD2AE65A2700FFA42A /* PBXTargetDependency */,
+			);
+			name = BebeBoilerPlateUITests;
+			productName = BebeBoilerPlateUITests;
+			productReference = B20B11BB2AE65A2700FFA42A /* BebeBoilerPlateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20B11972AE65A2600FFA42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B20B119E2AE65A2600FFA42A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B20B11B02AE65A2700FFA42A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B20B119E2AE65A2600FFA42A;
+					};
+					B20B11BA2AE65A2700FFA42A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B20B119E2AE65A2600FFA42A;
+					};
+				};
+			};
+			buildConfigurationList = B20B119A2AE65A2600FFA42A /* Build configuration list for PBXProject "BebeBoilerPlate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20B11962AE65A2600FFA42A;
+			productRefGroup = B20B11A02AE65A2600FFA42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20B119E2AE65A2600FFA42A /* BebeBoilerPlate */,
+				B20B11B02AE65A2700FFA42A /* BebeBoilerPlateTests */,
+				B20B11BA2AE65A2700FFA42A /* BebeBoilerPlateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20B119D2AE65A2600FFA42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B11AC2AE65A2700FFA42A /* Preview Assets.xcassets in Resources */,
+				B20B11A92AE65A2700FFA42A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B11AF2AE65A2700FFA42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B11B92AE65A2700FFA42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20B119B2AE65A2600FFA42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B11A52AE65A2600FFA42A /* ContentView.swift in Sources */,
+				B20B11A72AE65A2600FFA42A /* Item.swift in Sources */,
+				B20B11A32AE65A2600FFA42A /* BebeBoilerPlateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B11AD2AE65A2700FFA42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B11B62AE65A2700FFA42A /* BebeBoilerPlateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20B11B72AE65A2700FFA42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20B11C22AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift in Sources */,
+				B20B11C02AE65A2700FFA42A /* BebeBoilerPlateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20B11B32AE65A2700FFA42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20B119E2AE65A2600FFA42A /* BebeBoilerPlate */;
+			targetProxy = B20B11B22AE65A2700FFA42A /* PBXContainerItemProxy */;
+		};
+		B20B11BD2AE65A2700FFA42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20B119E2AE65A2600FFA42A /* BebeBoilerPlate */;
+			targetProxy = B20B11BC2AE65A2700FFA42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20B11C32AE65A2700FFA42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20B11C42AE65A2700FFA42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20B11C62AE65A2700FFA42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BebeBoilerPlate/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20B11C72AE65A2700FFA42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BebeBoilerPlate/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20B11C92AE65A2700FFA42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BebeBoilerPlate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BebeBoilerPlate";
+			};
+			name = Debug;
+		};
+		B20B11CA2AE65A2700FFA42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BebeBoilerPlate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BebeBoilerPlate";
+			};
+			name = Release;
+		};
+		B20B11CC2AE65A2700FFA42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BebeBoilerPlate;
+			};
+			name = Debug;
+		};
+		B20B11CD2AE65A2700FFA42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BHXWP5PYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BebeBoilerPlate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20B119A2AE65A2600FFA42A /* Build configuration list for PBXProject "BebeBoilerPlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B11C32AE65A2700FFA42A /* Debug */,
+				B20B11C42AE65A2700FFA42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20B11C52AE65A2700FFA42A /* Build configuration list for PBXNativeTarget "BebeBoilerPlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B11C62AE65A2700FFA42A /* Debug */,
+				B20B11C72AE65A2700FFA42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20B11C82AE65A2700FFA42A /* Build configuration list for PBXNativeTarget "BebeBoilerPlateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B11C92AE65A2700FFA42A /* Debug */,
+				B20B11CA2AE65A2700FFA42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20B11CB2AE65A2700FFA42A /* Build configuration list for PBXNativeTarget "BebeBoilerPlateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20B11CC2AE65A2700FFA42A /* Debug */,
+				B20B11CD2AE65A2700FFA42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20B11972AE65A2600FFA42A /* Project object */;
+}
