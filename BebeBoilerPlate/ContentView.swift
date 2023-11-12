@@ -10,30 +10,36 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var mealLogs: [MealLog]
+    @State var isAddMealLogPresented = false
 
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(mealLogs) { meal in
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        Text("Meal Log at \(meal.timestamp, format: Date.FormatStyle(date: .numeric, time: .shortened))")
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        MealView(meal: meal)
                     }
                 }
-                .onDelete(perform: deleteItems)
+                .onDelete(perform: deleteMealLogs)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
                 ToolbarItem {
-                    Button(action: addItem) {
+                    Button{
+                        isAddMealLogPresented = true
+                    } label: {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
             }
+            .sheet(isPresented: $isAddMealLogPresented, content: {
+                AddMealLogView()
+            })
         } detail: {
             Text("Select an item")
         }
@@ -46,10 +52,24 @@ struct ContentView: View {
         }
     }
 
-    private func deleteItems(offsets: IndexSet) {
+    private func deleteMealLogs(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
-                modelContext.delete(items[index])
+                modelContext.delete(mealLogs[index])
+            }
+        }
+    }
+}
+
+struct MealView: View {
+    var meal: MealLog
+
+    var body: some View {
+        HStack {
+            Text("\(meal.timestamp)")
+            VStack {
+                Text(meal.mealType.description)
+                Text("\(meal.amount) ml")
             }
         }
     }

@@ -15,6 +15,19 @@
 		B20B11B62AE65A2700FFA42A /* BebeBoilerPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11B52AE65A2700FFA42A /* BebeBoilerPlateTests.swift */; };
 		B20B11C02AE65A2700FFA42A /* BebeBoilerPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11BF2AE65A2700FFA42A /* BebeBoilerPlateUITests.swift */; };
 		B20B11C22AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11C12AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift */; };
+		B20B11CF2AE65A5E00FFA42A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11CE2AE65A5E00FFA42A /* MainView.swift */; };
+		B20B11D12AE65A8F00FFA42A /* DailyScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11D02AE65A8F00FFA42A /* DailyScheduleView.swift */; };
+		B20B11D32AE65AAD00FFA42A /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11D22AE65AAD00FFA42A /* StatisticView.swift */; };
+		B20B11D62AE6A44000FFA42A /* MealLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11D52AE6A44000FFA42A /* MealLog.swift */; };
+		B20B11D82AE6A71000FFA42A /* AddMealLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B11D72AE6A71000FFA42A /* AddMealLogView.swift */; };
+		B241EC142AF8BDA300F0C81B /* AgreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241EC132AF8BDA300F0C81B /* AgreeView.swift */; };
+		B241EC182AF919AF00F0C81B /* NickNameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241EC172AF919AF00F0C81B /* NickNameInputView.swift */; };
+		B241EC1A2AF947AA00F0C81B /* TextLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241EC192AF947AA00F0C81B /* TextLiterals.swift */; };
+		B241EC202AF9580C00F0C81B /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241EC1F2AF9580C00F0C81B /* Array+Safe.swift */; };
+		B241EC222AFA28F600F0C81B /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241EC212AFA28F600F0C81B /* Enum.swift */; };
+		B29C2EFF2AE6E9F5009826F8 /* AmountsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C2EFE2AE6E9F5009826F8 /* AmountsOverview.swift */; };
+		B29C2F012AE6EB12009826F8 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C2F002AE6EB12009826F8 /* Date+.swift */; };
+		B2F79F152AE8DA77000EAF0C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F79F142AE8DA77000EAF0C /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +59,19 @@
 		B20B11BB2AE65A2700FFA42A /* BebeBoilerPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BebeBoilerPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20B11BF2AE65A2700FFA42A /* BebeBoilerPlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebeBoilerPlateUITests.swift; sourceTree = "<group>"; };
 		B20B11C12AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebeBoilerPlateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B20B11CE2AE65A5E00FFA42A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B20B11D02AE65A8F00FFA42A /* DailyScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScheduleView.swift; sourceTree = "<group>"; };
+		B20B11D22AE65AAD00FFA42A /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		B20B11D52AE6A44000FFA42A /* MealLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealLog.swift; sourceTree = "<group>"; };
+		B20B11D72AE6A71000FFA42A /* AddMealLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealLogView.swift; sourceTree = "<group>"; };
+		B241EC132AF8BDA300F0C81B /* AgreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeView.swift; sourceTree = "<group>"; };
+		B241EC172AF919AF00F0C81B /* NickNameInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NickNameInputView.swift; sourceTree = "<group>"; };
+		B241EC192AF947AA00F0C81B /* TextLiterals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLiterals.swift; sourceTree = "<group>"; };
+		B241EC1F2AF9580C00F0C81B /* Array+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
+		B241EC212AFA28F600F0C81B /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		B29C2EFE2AE6E9F5009826F8 /* AmountsOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountsOverview.swift; sourceTree = "<group>"; };
+		B29C2F002AE6EB12009826F8 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		B2F79F142AE8DA77000EAF0C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +123,19 @@
 			isa = PBXGroup;
 			children = (
 				B20B11A22AE65A2600FFA42A /* BebeBoilerPlateApp.swift */,
+				B241EC192AF947AA00F0C81B /* TextLiterals.swift */,
+				B241EC122AF8BD9500F0C81B /* View */,
+				B20B11CE2AE65A5E00FFA42A /* MainView.swift */,
 				B20B11A42AE65A2600FFA42A /* ContentView.swift */,
+				B20B11D02AE65A8F00FFA42A /* DailyScheduleView.swift */,
+				B20B11D42AE65B3500FFA42A /* Statistic */,
 				B20B11A62AE65A2600FFA42A /* Item.swift */,
 				B20B11A82AE65A2700FFA42A /* Assets.xcassets */,
 				B20B11AA2AE65A2700FFA42A /* Preview Content */,
+				B20B11D52AE6A44000FFA42A /* MealLog.swift */,
+				B20B11D72AE6A71000FFA42A /* AddMealLogView.swift */,
+				B29C2F022AE6EB16009826F8 /* Extensions */,
+				B2F79F142AE8DA77000EAF0C /* Data.swift */,
 			);
 			path = BebeBoilerPlate;
 			sourceTree = "<group>";
@@ -128,6 +163,50 @@
 				B20B11C12AE65A2700FFA42A /* BebeBoilerPlateUITestsLaunchTests.swift */,
 			);
 			path = BebeBoilerPlateUITests;
+			sourceTree = "<group>";
+		};
+		B20B11D42AE65B3500FFA42A /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				B20B11D22AE65AAD00FFA42A /* StatisticView.swift */,
+				B29C2EFE2AE6E9F5009826F8 /* AmountsOverview.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		B241EC122AF8BD9500F0C81B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B241EC1D2AF94A5400F0C81B /* Components */,
+				B241EC1B2AF9489F00F0C81B /* Onboarding */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B241EC1B2AF9489F00F0C81B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B241EC132AF8BDA300F0C81B /* AgreeView.swift */,
+				B241EC172AF919AF00F0C81B /* NickNameInputView.swift */,
+				B241EC212AFA28F600F0C81B /* Enum.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B241EC1D2AF94A5400F0C81B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B29C2F022AE6EB16009826F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B29C2F002AE6EB12009826F8 /* Date+.swift */,
+				B241EC1F2AF9580C00F0C81B /* Array+Safe.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +340,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20B11A52AE65A2600FFA42A /* ContentView.swift in Sources */,
+				B20B11D32AE65AAD00FFA42A /* StatisticView.swift in Sources */,
+				B20B11CF2AE65A5E00FFA42A /* MainView.swift in Sources */,
 				B20B11A72AE65A2600FFA42A /* Item.swift in Sources */,
+				B2F79F152AE8DA77000EAF0C /* Data.swift in Sources */,
+				B20B11D82AE6A71000FFA42A /* AddMealLogView.swift in Sources */,
+				B241EC202AF9580C00F0C81B /* Array+Safe.swift in Sources */,
+				B241EC1A2AF947AA00F0C81B /* TextLiterals.swift in Sources */,
 				B20B11A32AE65A2600FFA42A /* BebeBoilerPlateApp.swift in Sources */,
+				B20B11D62AE6A44000FFA42A /* MealLog.swift in Sources */,
+				B241EC222AFA28F600F0C81B /* Enum.swift in Sources */,
+				B29C2F012AE6EB12009826F8 /* Date+.swift in Sources */,
+				B241EC142AF8BDA300F0C81B /* AgreeView.swift in Sources */,
+				B241EC182AF919AF00F0C81B /* NickNameInputView.swift in Sources */,
+				B20B11D12AE65A8F00FFA42A /* DailyScheduleView.swift in Sources */,
+				B29C2EFF2AE6E9F5009826F8 /* AmountsOverview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +533,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +565,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.sei.BebeBoilerPlate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
